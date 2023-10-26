@@ -7,5 +7,5 @@ public class Main {
         MoneyService service = new MoneyService();
         System.out.println(service.calcMoney(100_000, 60_000, 150_000));
 
-        }
     }
+}
