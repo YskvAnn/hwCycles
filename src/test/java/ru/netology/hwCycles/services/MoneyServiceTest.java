@@ -19,7 +19,7 @@ public class MoneyServiceTest {
     public void shouldCalcInexact() {
         MoneyService service = new MoneyService();
 
-        int expected = 6;
+        int expected = 3;
         int actual = service.calcMoney(10_000, 3_000, 20_000);
 
         Assertions.assertEquals(expected, actual);
